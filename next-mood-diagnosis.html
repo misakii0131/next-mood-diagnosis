@@ -46,10 +46,10 @@
       ['明日の朝、部屋に残っていてほしい空気は？',[['🎟️','わくわくするチケット','今日より少し楽しい予定をつくりたい','enjoy'],['☁️','やわらかな朝もや','急がず始められる、やさしい静けさ','heal']]]
     ];
     const results={
-      grow:{icon:'🌱',title:'育てる気分',sub:'〜じっくりアップルパイタイプ〜',image:'assets/mood-grow-sprout-transparent.png',lead:'今のあなたは、未来の自分に小さな水やりをしたいとき。完璧じゃなくて大丈夫。続けたいことに、少しだけ触れてみよう。',next:'<h3>次にやることを見つけよう</h3><p>やりたいことリストの <strong>「育てる」</strong> から、<strong>10〜30分で始められること</strong>をひとつ選んでみて。</p>'},
-      enjoy:{icon:'🍰',title:'楽しむ気分',sub:'〜ときめきマロンパフェタイプ〜',image:'assets/mood-enjoy-marron-parfait-v2.png',lead:'今のあなたは、ときめきに素直になりたいとき。推し活・趣味・おでかけ・気になる体験など、心が弾むことを選んで大丈夫。',next:'<h3>次にやることを見つけよう</h3><p>やりたいことリストの <strong>「楽しむ」</strong> から、今いちばん<strong>「やりたい！」</strong>と思うことをひとつ選んでみて。</p>'},
-      heal:{icon:'🌙',title:'癒す気分',sub:'〜とろけるパンプキンプリンタイプ〜',image:'assets/mood-heal-moon-window-transparent.png',lead:'今のあなたは、がんばった自分をやさしく回復させたいとき。まずは余白をつくることが、次の一歩のエネルギーになります。',next:'<h3>次にやることを見つけよう</h3><p>やりたいことリストの <strong>「癒す」</strong> から、今の自分が<strong>いちばんほっとできそうなこと</strong>をひとつ選んでみて。</p>'},
-      organize:{icon:'📓',title:'整える気分',sub:'〜すっきり洋梨タルトタイプ〜',image:'assets/mood-organize-notebook-transparent.png',lead:'今のあなたは、気持ちや暮らしに見通しをつくりたいとき。小さく整えるだけでも、次の一歩がぐっと見えやすくなります。',next:'<h3>次にやることを見つけよう</h3><p>やりたいことリストの <strong>「整える」</strong> から、終えたあとに<strong>すっきりしそうなこと</strong>をひとつ選んでみて。</p>'}
+      grow:{icon:'🌱',title:'育てる気分',sub:'〜じっくりアップルパイタイプ〜',image:'mood-grow-sprout-transparent.png',lead:'今のあなたは、未来の自分に小さな水やりをしたいとき。完璧じゃなくて大丈夫。続けたいことに、少しだけ触れてみよう。',next:'<h3>次にやることを見つけよう</h3><p>やりたいことリストの <strong>「育てる」</strong> から、<strong>10〜30分で始められること</strong>をひとつ選んでみて。</p>'},
+      enjoy:{icon:'🍰',title:'楽しむ気分',sub:'〜ときめきマロンパフェタイプ〜',image:'mood-enjoy-marron-parfait-v2.png',lead:'今のあなたは、ときめきに素直になりたいとき。推し活・趣味・おでかけ・気になる体験など、心が弾むことを選んで大丈夫。',next:'<h3>次にやることを見つけよう</h3><p>やりたいことリストの <strong>「楽しむ」</strong> から、今いちばん<strong>「やりたい！」</strong>と思うことをひとつ選んでみて。</p>'},
+      heal:{icon:'🌙',title:'癒す気分',sub:'〜とろけるパンプキンプリンタイプ〜',image:'mood-heal-moon-window-transparent.png',lead:'今のあなたは、がんばった自分をやさしく回復させたいとき。まずは余白をつくることが、次の一歩のエネルギーになります。',next:'<h3>次にやることを見つけよう</h3><p>やりたいことリストの <strong>「癒す」</strong> から、今の自分が<strong>いちばんほっとできそうなこと</strong>をひとつ選んでみて。</p>'},
+      organize:{icon:'📓',title:'整える気分',sub:'〜すっきり洋梨タルトタイプ〜',image:'mood-organize-notebook-transparent.png',lead:'今のあなたは、気持ちや暮らしに見通しをつくりたいとき。小さく整えるだけでも、次の一歩がぐっと見えやすくなります。',next:'<h3>次にやることを見つけよう</h3><p>やりたいことリストの <strong>「整える」</strong> から、終えたあとに<strong>すっきりしそうなこと</strong>をひとつ選んでみて。</p>'}
     };
     let index=0,scores={grow:0,enjoy:0,heal:0,organize:0},current;const $=id=>document.getElementById(id);
     function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
